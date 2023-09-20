@@ -2,7 +2,7 @@
 class Power{
     synchronized void p(int n){
         int res=1;
-        for(int i=1;i<=n;i++){
+        for(int i=1;i<=5;i++){
             res*=n;
             System.out.println(n+"^"+i+"="+res);
         }
